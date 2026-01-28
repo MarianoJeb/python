@@ -1,0 +1,9 @@
+#TIPOS DE DADOS
+#STRING=TEXTO
+print(type("joao"))
+#INT=NUMERO INTEIRO
+print(type(22))
+#FLOAT=NUMERO DECIMAL(FLUTUANTE)
+print(type(22.5))
+#BOOLEANO=VERDADEIRO OU FALSO
+print(type(True))

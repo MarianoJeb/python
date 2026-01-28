@@ -1,0 +1,3 @@
+def saudacao(nome):
+    print(f'Olá {nome}')
+nome='Pedro'
