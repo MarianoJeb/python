@@ -1,0 +1,10 @@
+CRIA O AMBIENTE VIRTUAL->python -m venv Venv
+
+ATIVA O AMBIENTE VIRTUAL->source Venv/bin/activate
+##souce significa fonte
+
+REINSTALAR AS DEPENDENCIAS
+
+CRIA O REQUIREMENTS->pip freeze>requirements.txt
+
+(CASO NECESSÁRIO INSTALAR TODAS AS BIBLIOTECAS DE NOVO)-> pip install -r requirements.txt
