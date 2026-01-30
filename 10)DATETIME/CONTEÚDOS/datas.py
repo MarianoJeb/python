@@ -12,6 +12,11 @@ print(agora.strftime("Hoje é dia %d do mês %m do ano %Y🗓️")) #y=ano abrev
 print(agora.strftime("Agora são %H horas, %M minutos e %S segundos⏱️"))
 
 #OBS strftime: Mês em letras: %b(abreviado) | %B(extenso)
+                #dia da semana: %a(abreviado) | %A(extenso)
+                #data e hora formatados: %c (Complete)
+                #data representation local: %x
+                #hora representation local: %X
+
 
 data_str="31/08/2026" ##Converte uma string em um objeto abreviado.
 data_convertida=datetime.strptime(data_str, "%d/%m/%Y")
