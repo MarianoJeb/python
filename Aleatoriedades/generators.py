@@ -1,4 +1,4 @@
-def gen_primes(inicio:int, fim:int)->int:
+def gen_primes(inicio:int, fim:int):
     for num in range (inicio,fim+1):
         if num<2:
             continue
