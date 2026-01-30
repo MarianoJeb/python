@@ -1,0 +1,9 @@
+PRINCIPAIS AÇÕES:
+-get: Buscar dados | Parâmetros (ex :url?parametro1&parametro2)
+-post: Adicionar novo registro/ atualizar registro existente | retornar registro com ID | Body
+-put: Atualizar um registro | 'Igual' o post | tem que enviar tudo de novo no body para atualizar e é reconhecido pelo ID na requisição
+-patch: Atualiza o registro, porém só manda oq vc quer atualizar e o ID do que vai ser atualizado
+-delete: remover
+
+-------------------------------------------------------------------------------
+
